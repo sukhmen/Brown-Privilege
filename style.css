@@ -14,9 +14,10 @@ header {
 	font-weight: bold;
 }
 .logo {
-    width:65%;
+    width:45%;
 	display: block;
 	margin:0 auto;
+	padding-top: 5px;
 }
 header .logo {
     width:14%;
@@ -24,18 +25,18 @@ header .logo {
 	margin:0 auto;
 }
 .social {
-	padding-top: 26px;
+	padding-top: 20px;
 }
 .social li a i {
 	color: #636363;
-	font-size: 22px;
+	font-size: 19px;
 }
 .social2 {
 	padding-top: 26px;
 }
 .social2 li a i {
 	color: #636363;
-	font-size: 22px;
+	font-size: 18px;
 }
 .second {
 	padding-top: 15px;
@@ -44,7 +45,7 @@ header .logo {
 	float: right;
 	color: #636363;
 	text-decoration: underline;
-	font-size: 22px;
+	font-size: 18px;
 	padding-top: 11px;
 }
 .get:hover {
@@ -53,7 +54,7 @@ color: #636363;
 .get2 {
 	color: #636363;
 	text-decoration: underline;
-	font-size: 22px;
+	font-size: 18px;
 	padding-top: 20px;
 }
 .get2:hover {
@@ -185,7 +186,7 @@ header .logo {
 	display: none;
 }
 .logo {
-    width:40%;
+    width:32%;
 }
 header .logo {
     width:40%;
