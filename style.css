@@ -1,0 +1,201 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	background: #000000;
+	color: #fff;
+}
+header {
+	padding-top: 20px;
+}
+.subsection {
+	padding: 20px 0px;
+}
+
+.name {
+	font-weight: bold;
+}
+.logo {
+    width:65%;
+	display: block;
+	margin:0 auto;
+}
+header .logo {
+    width:14%;
+	display: block;
+	margin:0 auto;
+}
+.social {
+	padding-top: 26px;
+}
+.social li a i {
+	color: #636363;
+	font-size: 22px;
+}
+.social2 {
+	padding-top: 26px;
+}
+.social2 li a i {
+	color: #636363;
+	font-size: 22px;
+}
+.second {
+	padding-top: 15px;
+}
+.get {
+	float: right;
+	color: #636363;
+	text-decoration: underline;
+	font-size: 22px;
+	padding-top: 11px;
+}
+.get:hover {
+color: #636363;	
+}
+.get2 {
+	color: #636363;
+	text-decoration: underline;
+	font-size: 22px;
+	padding-top: 20px;
+}
+.get2:hover {
+color: #636363;	
+}
+.submit label {
+	color: #E1E1E1;
+	font-size: 12px;
+}
+.email_label {
+	font-size: 16px;	
+}
+.email {
+	background: transparent;
+	border:none;
+	border-bottom: 1px solid #636363;
+}
+
+/*responsive design */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+ 
+  .social2 {
+	display: none;
+}
+.get2 {
+	display: none;
+}
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+
+  .social2 {
+	display: none;
+}
+.get2 {
+	display: none;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  .social2 {
+	display: none;
+}
+.get2 {
+	display: none;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  .social2 {
+	display: none;
+}
+.get2 {
+	display: none;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .social {
+	display: none;
+}
+.get {
+	display: none;
+}
+.logo {
+    width:40%;
+}
+header .logo {
+    width:40%;
+}
+.social2 {
+	display: block;
+}
+.get2 {
+	display: block;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+
+  .social {
+	display: none;
+}
+.get {
+	display: none;
+}
+.logo {
+    width:40%;
+}
+header .logo {
+    width:40%;
+}
+.social2 {
+	display: block;
+}
+.get2 {
+	display: block;
+}
+  
+}
+
